@@ -1,6 +1,6 @@
 # II Seminário de Enfrentamento às Organizações Criminosas
 
-Site de divulgação do **II Seminário de Enfrentamento às Organizações Criminosas — Integração e ação contra o crime organizado** (MPSC / GAECO).
+Site de divulgação do **II Seminário de Enfrentamento às Organizações Criminosas — Integração e ação contra o crime organizado**, realizado pelo MPSC, GAECO e CEAF (Centro de Estudos e Aperfeiçoamento Funcional).
 
 - **Data:** 4 de dezembro de 2026, das 8h às 17h20
 - **Local:** Auditório – Edifício Sede do MPSC — Rua Bocaiúva, n. 1792, Centro, Florianópolis/SC
@@ -19,7 +19,7 @@ assets/img/hero.jpg              imagem do cartaz
 assets/img/hex-bg.jpg            textura hexagonal do cartaz
 assets/img/stripes.png           faixas verdes do cartaz
 assets/img/qrcode-inscricao.png  QR code → link de inscrição
-assets/img/logos/                MPSC e GAECO (versões brancas)
+assets/img/logos/                MPSC, GAECO e CEAF (versões para fundo escuro)
 ```
 
 ## Funcionalidades

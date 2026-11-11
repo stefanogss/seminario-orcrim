@@ -272,6 +272,8 @@ h1, h2, h3{
 .logos-title{ text-align: center; text-transform: uppercase; letter-spacing: 2px; font-size: .8rem; color: var(--ink-mute); margin: 0 0 24px; }
 .logos-strip{ display: flex; justify-content: center; align-items: center; gap: 56px; flex-wrap: wrap; }
 .logos-strip img{ height: 70px; width: auto; }
+.logos-strip .logo-ceaf{ height: 64px; }
+.meta-label{ min-width: 92px; }
 .site-footer{ background: #101010; padding: 36px 0 90px; border-top: 1px solid var(--line); font-size: .9rem; color: var(--ink-soft); text-align: center; }
 .site-footer p{ margin: 4px 0; }
 .footer-muted{ color: var(--ink-mute); font-size: .82rem; }
