@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>II Seminário de Enfrentamento às Organizações Criminosas | MPSC</title>
+<meta name="description" content="II Seminário de Enfrentamento às Organizações Criminosas — Integração e ação contra o crime organizado. 4 de dezembro de 2026, Auditório do Edifício Sede do MPSC, Florianópolis/SC. Inscrições pelo EAD do MPSC.">
+<meta property="og:title" content="II Seminário de Enfrentamento às Organizações Criminosas">
+<meta property="og:description" content="Integração e ação contra o crime organizado · 04/12/2026 · Auditório do MPSC, Florianópolis/SC">
+<meta property="og:image" content="assets/img/hero.jpg">
+<meta name="theme-color" content="#1b1b1b">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+<header class="site-header" id="topo">
+  <div class="container header-inner">
+    <a class="brand" href="#topo" aria-label="Início">
+      <img src="assets/img/logos/mpsc.png" alt="MPSC — Ministério Público de Santa Catarina" class="brand-logo">
+      <span class="brand-sep" aria-hidden="true"></span>
+      <span class="brand-text">II Seminário<br><small>Enfrentamento às Org. Criminosas</small></span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="navMenu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav" id="navMenu">
+      <a href="#contagem">Contagem</a>
+      <a href="#programacao">Programação</a>
+      <a href="#palestrantes">Palestrantes</a>
+      <a href="#local">Local</a>
+      <a href="#duvidas">Dúvidas</a>
+      <a href="#inscricao" class="nav-cta">Inscreva-se</a>
+    </nav>
+  </div>
+</header>
+
+<main id="conteudo">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <img src="assets/img/stripes.png" alt="" class="hero-stripes" aria-hidden="true">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow">II Seminário de</p>
+        <h1>Enfrentamento <span>às organizações criminosas</span></h1>
+        <p class="hero-subtitle">Integração e ação<br>contra o crime organizado</p>
+        <ul class="hero-meta">
+          <li><span class="meta-label">Data</span><strong>04/12/2026</strong> · sexta-feira, das 8h às 17h20</li>
+          <li><span class="meta-label">Local</span><strong>Auditório – Edifício Sede do MPSC</strong><br>Rua Bocaiúva, n. 1792, Centro, Florianópolis/SC</li>
+        </ul>
+        <div class="hero-actions">
+          <a href="https://ead.mpsc.mp.br/course/view.php?id=1338" class="btn btn-primary" target="_blank" rel="noopener">Inscreva-se</a>
+          <a href="#programacao" class="btn btn-ghost">Ver programação</a>
+        </div>
+      </div>
+      <aside class="hero-qr">
+        <img src="assets/img/qrcode-inscricao.png" alt="QR code para inscrição no seminário">
+        <p>Faça sua inscrição<br>pelo <strong><em>QR Code</em></strong></p>
+      </aside>
+    </div>
+  </section>
+
+  <!-- CONTAGEM / CALENDÁRIO -->
+  <section id="contagem" class="section section-hex">
+    <div class="container">
+      <h2 class="section-title"><span class="section-tag">01</span> Faltam poucos dias</h2>
+      <p class="section-lead">Marque na agenda: o seminário acontece em <strong>4 de dezembro de 2026</strong>, a partir das 8h.</p>
+
+      <div class="countdown-grid">
+        <div class="countdown" id="countdown" data-target="2026-12-04T08:00:00-03:00" data-end="2026-12-04T17:30:00-03:00" aria-live="polite">
+          <div class="cd-unit cd-unit-main"><span class="cd-num" id="cdDays">--</span><span class="cd-label" id="cdDaysLabel">dias</span></div>
+          <div class="cd-unit"><span class="cd-num" id="cdHours">--</span><span class="cd-label">horas</span></div>
+          <div class="cd-unit"><span class="cd-num" id="cdMinutes">--</span><span class="cd-label">min</span></div>
+          <div class="cd-unit"><span class="cd-num" id="cdSeconds">--</span><span class="cd-label">seg</span></div>
+          <p class="cd-status" id="cdStatus"></p>
+        </div>
+
+        <div class="calendar-card">
+          <div class="calendar-months" id="calendar"></div>
+          <div class="calendar-legend">
+            <span><i class="lg lg-today"></i> Hoje</span>
+            <span><i class="lg lg-left"></i> Dias que faltam</span>
+            <span><i class="lg lg-event"></i> Dia do seminário</span>
+          </div>
+          <div class="calendar-actions">
+            <a class="btn btn-small btn-ghost" id="gcalLink" target="_blank" rel="noopener" href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=II+Semin%C3%A1rio+de+Enfrentamento+%C3%A0s+Organiza%C3%A7%C3%B5es+Criminosas&amp;dates=20261204T110000Z/20261204T203000Z&amp;details=Inscri%C3%A7%C3%B5es%3A+https%3A%2F%2Fead.mpsc.mp.br%2Fcourse%2Fview.php%3Fid%3D1338&amp;location=Audit%C3%B3rio+-+Edif%C3%ADcio+Sede+do+MPSC%2C+Rua+Bocai%C3%BAva%2C+1792%2C+Centro%2C+Florian%C3%B3polis%2FSC">Google Agenda</a>
+            <button class="btn btn-small btn-ghost" id="icsBtn" type="button">Outlook / iCal (.ics)</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROGRAMAÇÃO -->
+  <section id="programacao" class="section">
+    <div class="container">
+      <h2 class="section-title"><span class="section-tag">02</span> Programação</h2>
+      <p class="section-lead">04/12/2026 · Auditório – Edifício Sede do MPSC</p>
+
+      <div class="schedule-tabs" role="tablist">
+        <button class="tab-btn is-active" role="tab" aria-selected="true" data-tab="manha">Manhã · 8h às 11h30</button>
+        <button class="tab-btn" role="tab" aria-selected="false" data-tab="tarde">Tarde · 13h30 às 17h20</button>
+      </div>
+
+      <div class="tab-panel is-active" id="tab-manha" role="tabpanel">
+        <ol class="timeline">
+          <li class="timeline-simple">
+            <span class="timeline-time">8h</span>
+            <div class="timeline-body"><h3>Credenciamento e recepção</h3></div>
+          </li>
+          <li class="timeline-simple">
+            <span class="timeline-time">8h30</span>
+            <div class="timeline-body"><h3>Abertura</h3></div>
+          </li>
+          <li>
+            <span class="timeline-time">9h</span>
+            <div class="timeline-body">
+              <h3>Palestra de Abertura</h3>
+              <p class="talk-title">Facções brasileiras e a Governança Criminal</p>
+              <p class="talk-people"><span>Palestrante:</span> Murilo Ribeiro <em>(Delegado de Polícia Civil do Estado de Minas Gerais)</em></p>
+            </div>
+          </li>
+          <li>
+            <span class="timeline-time">9h45</span>
+            <div class="timeline-body">
+              <h3>Painel I</h3>
+              <p class="talk-title">Os pilares das investigações integradas de facções criminosas</p>
+              <p class="talk-people"><span>Painelistas:</span> Leandro Antunes Meirelles Machado <em>(Promotor de Justiça do MPPR)</em> e Ricardo Jorge Pereira Filho <em>(Delegado de Polícia Civil da PCPR)</em></p>
+            </div>
+          </li>
+          <li>
+            <span class="timeline-time">10h40</span>
+            <div class="timeline-body">
+              <h3>Painel II</h3>
+              <p class="talk-title">Cooperação Internacional: a perspectiva de profissionais policiais dos EUA</p>
+              <p class="talk-people"><span>Painelistas:</span> Representantes da Embaixada dos Estados Unidos</p>
+            </div>
+          </li>
+          <li class="timeline-break">
+            <span class="timeline-time">11h30</span>
+            <div class="timeline-body"><h3>Intervalo para almoço</h3></div>
+          </li>
+        </ol>
+      </div>
+
+      <div class="tab-panel" id="tab-tarde" role="tabpanel">
+        <ol class="timeline">
+          <li>
+            <span class="timeline-time">13h30</span>
+            <div class="timeline-body">
+              <h3>Painel III</h3>
+              <p class="talk-title">O papel das operações especiais no cenário de enfrentamento ao crime organizado</p>
+              <p class="talk-people"><span>Painelista:</span> Maurílio Nunes da Conceição <em>(Subsecretário-adjunto da SSP do RJ)</em></p>
+              <p class="talk-people"><span>Mediadores:</span> Anderson Sthanke <em>(Comandante do BOPE SC)</em> e Daniel Dias <em>(Coordenador da CORE-SC)</em></p>
+            </div>
+          </li>
+          <li>
+            <span class="timeline-time">14h15</span>
+            <div class="timeline-body">
+              <h3>Painel IV</h3>
+              <p class="talk-title">Imprensa e crime organizado: como equilibrar interesse público e o sigilo das investigações</p>
+              <p class="talk-people"><span>Painelistas:</span> Bianca Andrighetti Coelho <em>(Promotora de Justiça MPSC)</em>; Rafael Saldanha <em>(jornalista CNN)</em>; Nader Khalil <em>(jornalista NDTV)</em> e Anderson Silva <em>(jornalista NSC)</em></p>
+            </div>
+          </li>
+          <li class="timeline-break">
+            <span class="timeline-time">15h15</span>
+            <div class="timeline-body"><h3>Intervalo</h3></div>
+          </li>
+          <li>
+            <span class="timeline-time">15h45</span>
+            <div class="timeline-body">
+              <h3>Palestra</h3>
+              <p class="talk-title">Contextualização da atuação do crime organizado na região de fronteira</p>
+              <p class="talk-people"><span>Palestrante:</span> Thalys Franklyn de Souza <em>(Promotor de Justiça MPMS com atuação no GAECO do MPMS)</em></p>
+            </div>
+          </li>
+          <li>
+            <span class="timeline-time">16h20</span>
+            <div class="timeline-body">
+              <h3>Painel V</h3>
+              <p class="talk-title">Tecnologia, inteligência artificial e prova digital no enfrentamento das organizações criminosas</p>
+              <p class="talk-people"><span>Painelistas:</span> Rafael Velasquez <em>(CEO da Techbiz)</em>; Fabrício Lamas Borges da Silva <em>(Promotor de Justiça MPGO com atuação no CYBERGAECO do MPGO)</em> e Maristela Schneider <em>(Promotora de Justiça MPRS)</em></p>
+            </div>
+          </li>
+          <li class="timeline-simple">
+            <span class="timeline-time">17h20</span>
+            <div class="timeline-body"><h3>Encerramento</h3></div>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- PALESTRANTES -->
+  <section id="palestrantes" class="section section-hex">
+    <div class="container">
+      <h2 class="section-title"><span class="section-tag">03</span> Palestrantes e painelistas</h2>
+      <p class="section-lead">Membros do Ministério Público, forças de segurança, imprensa e especialistas em tecnologia de todo o país.</p>
+      <div class="speaker-grid">
+        <article class="speaker-card"><span class="speaker-initials">MR</span><h3>Murilo Ribeiro</h3><p>Delegado de Polícia Civil — MG</p><span class="speaker-tag">Palestra de abertura</span></article>
+        <article class="speaker-card"><span class="speaker-initials">LM</span><h3>Leandro Antunes Meirelles Machado</h3><p>Promotor de Justiça — MPPR</p><span class="speaker-tag">Painel I</span></article>
+        <article class="speaker-card"><span class="speaker-initials">RP</span><h3>Ricardo Jorge Pereira Filho</h3><p>Delegado de Polícia Civil — PCPR</p><span class="speaker-tag">Painel I</span></article>
+        <article class="speaker-card"><span class="speaker-initials">EUA</span><h3>Embaixada dos Estados Unidos</h3><p>Representantes de profissionais policiais</p><span class="speaker-tag">Painel II</span></article>
+        <article class="speaker-card"><span class="speaker-initials">MC</span><h3>Maurílio Nunes da Conceição</h3><p>Subsecretário-adjunto da SSP — RJ</p><span class="speaker-tag">Painel III</span></article>
+        <article class="speaker-card"><span class="speaker-initials">AS</span><h3>Anderson Sthanke</h3><p>Comandante do BOPE SC</p><span class="speaker-tag">Mediador · Painel III</span></article>
+        <article class="speaker-card"><span class="speaker-initials">DD</span><h3>Daniel Dias</h3><p>Coordenador da CORE-SC</p><span class="speaker-tag">Mediador · Painel III</span></article>
+        <article class="speaker-card"><span class="speaker-initials">BC</span><h3>Bianca Andrighetti Coelho</h3><p>Promotora de Justiça — MPSC</p><span class="speaker-tag">Painel IV</span></article>
+        <article class="speaker-card"><span class="speaker-initials">RS</span><h3>Rafael Saldanha</h3><p>Jornalista — CNN</p><span class="speaker-tag">Painel IV</span></article>
+        <article class="speaker-card"><span class="speaker-initials">NK</span><h3>Nader Khalil</h3><p>Jornalista — NDTV</p><span class="speaker-tag">Painel IV</span></article>
+        <article class="speaker-card"><span class="speaker-initials">AS</span><h3>Anderson Silva</h3><p>Jornalista — NSC</p><span class="speaker-tag">Painel IV</span></article>
+        <article class="speaker-card"><span class="speaker-initials">TS</span><h3>Thalys Franklyn de Souza</h3><p>Promotor de Justiça — MPMS (GAECO)</p><span class="speaker-tag">Palestra</span></article>
+        <article class="speaker-card"><span class="speaker-initials">RV</span><h3>Rafael Velasquez</h3><p>CEO da Techbiz</p><span class="speaker-tag">Painel V</span></article>
+        <article class="speaker-card"><span class="speaker-initials">FS</span><h3>Fabrício Lamas Borges da Silva</h3><p>Promotor de Justiça — MPGO (CYBERGAECO)</p><span class="speaker-tag">Painel V</span></article>
+        <article class="speaker-card"><span class="speaker-initials">MS</span><h3>Maristela Schneider</h3><p>Promotora de Justiça — MPRS</p><span class="speaker-tag">Painel V</span></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOCAL -->
+  <section id="local" class="section">
+    <div class="container">
+      <h2 class="section-title"><span class="section-tag">04</span> Local</h2>
+      <div class="location-grid">
+        <div class="location-info">
+          <h3>Auditório – Edifício Sede do MPSC</h3>
+          <p>Rua Bocaiúva, n. 1792 — Centro<br>Florianópolis/SC</p>
+          <p class="muted">Sexta-feira, 4 de dezembro de 2026 · credenciamento a partir das 8h.</p>
+          <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=Rua+Bocaiuva+1792+Centro+Florianopolis+SC" target="_blank" rel="noopener">Abrir no Google Maps</a>
+        </div>
+        <div class="location-map">
+          <iframe title="Mapa do Auditório do MPSC" src="https://maps.google.com/maps?q=Rua%20Bocaiuva%2C%201792%2C%20Centro%2C%20Florianopolis%2C%20SC&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INSCRIÇÃO -->
+  <section id="inscricao" class="section section-cta">
+    <div class="container cta-inner">
+      <div class="cta-text">
+        <h2 class="section-title"><span class="section-tag">05</span> Inscrições</h2>
+        <p>As inscrições são feitas pelo portal EAD do MPSC. Clique no botão ou aponte a câmera do celular para o QR code.</p>
+        <div class="cta-actions">
+          <a href="https://ead.mpsc.mp.br/course/view.php?id=1338" class="btn btn-primary" target="_blank" rel="noopener">Fazer minha inscrição</a>
+          <a href="assets/img/qrcode-inscricao.png" class="btn btn-ghost" download="qrcode-inscricao-seminario.png">Baixar QR code</a>
+        </div>
+        <p class="cta-link">ead.mpsc.mp.br/course/view.php?id=1338</p>
+      </div>
+      <div class="cta-qr">
+        <img src="assets/img/qrcode-inscricao.png" alt="QR code para inscrição em ead.mpsc.mp.br">
+        <p>Aponte a câmera do celular</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- DÚVIDAS -->
+  <section id="duvidas" class="section section-hex">
+    <div class="container"><div class="doubts">
+      <div class="doubts-icon" aria-hidden="true">
+        <svg viewBox="0 0 32 32" width="56" height="56"><path fill="currentColor" d="M16.04 3C8.86 3 3.03 8.82 3.03 16c0 2.3.6 4.53 1.74 6.5L3 29l6.67-1.75A12.95 12.95 0 0 0 16.04 29C23.2 29 29 23.18 29 16S23.2 3 16.04 3zm0 23.62c-2.02 0-4-.54-5.72-1.57l-.41-.24-3.96 1.04 1.06-3.86-.27-.4A10.6 10.6 0 0 1 5.4 16c0-5.86 4.77-10.63 10.64-10.63 5.85 0 10.6 4.77 10.6 10.63 0 5.86-4.76 10.62-10.6 10.62zm5.83-7.96c-.32-.16-1.89-.93-2.18-1.04-.3-.1-.5-.16-.72.16-.21.32-.82 1.04-1 1.25-.19.21-.37.24-.69.08-.32-.16-1.35-.5-2.57-1.59-.95-.85-1.59-1.9-1.77-2.21-.19-.32-.02-.5.14-.65.14-.14.32-.37.48-.56.16-.18.21-.32.32-.53.1-.21.05-.4-.03-.56-.08-.16-.72-1.73-.98-2.37-.26-.62-.52-.54-.72-.55h-.61c-.21 0-.56.08-.85.4-.29.32-1.12 1.09-1.12 2.66s1.15 3.09 1.31 3.3c.16.21 2.26 3.45 5.47 4.84.76.33 1.36.53 1.83.68.77.24 1.47.21 2.02.13.62-.09 1.89-.77 2.16-1.52.27-.74.27-1.38.19-1.52-.08-.13-.29-.21-.61-.37z"/></svg>
+      </div>
+      <div class="doubts-text">
+        <h2 class="section-title"><span class="section-tag">06</span> Dúvidas?</h2>
+        <p>Fale com a <strong>Gerência de Capacitação</strong> pelo WhatsApp. A mensagem já vai pronta — é só enviar.</p>
+        <p class="muted">(48) 3229-9394</p>
+      </div>
+      <a class="btn btn-whatsapp" href="https://wa.me/554832299394?text=Ol%C3%A1!%20Estou%20com%20d%C3%BAvidas%20em%20rela%C3%A7%C3%A3o%20ao%20segundo%20semin%C3%A1rio%20de%20enfrentamento%20%C3%A0s%20organiza%C3%A7%C3%B5es%20criminosas." target="_blank" rel="noopener">Enviar mensagem no WhatsApp</a>
+    </div></div>
+  </section>
+
+  <!-- REALIZAÇÃO -->
+  <section class="section logos-section">
+    <div class="container">
+      <p class="logos-title">Realização</p>
+      <div class="logos-strip">
+        <img src="assets/img/logos/mpsc.png" alt="MPSC — Ministério Público de Santa Catarina">
+        <img src="assets/img/logos/gaeco.png" alt="GAECO — Grupo de Atuação Especial de Combate às Organizações Criminosas">
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p><strong>II Seminário de Enfrentamento às Organizações Criminosas</strong> — Integração e ação contra o crime organizado</p>
+    <p>04/12/2026 · Auditório – Edifício Sede do MPSC · Rua Bocaiúva, n. 1792, Centro, Florianópolis/SC</p>
+    <p class="footer-muted">Ministério Público de Santa Catarina · GAECO · Gerência de Capacitação</p>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/554832299394?text=Ol%C3%A1!%20Estou%20com%20d%C3%BAvidas%20em%20rela%C3%A7%C3%A3o%20ao%20segundo%20semin%C3%A1rio%20de%20enfrentamento%20%C3%A0s%20organiza%C3%A7%C3%B5es%20criminosas." target="_blank" rel="noopener" aria-label="Tirar dúvidas pelo WhatsApp com a Gerência de Capacitação">
+  <svg viewBox="0 0 32 32" width="30" height="30" aria-hidden="true"><path fill="currentColor" d="M16.04 3C8.86 3 3.03 8.82 3.03 16c0 2.3.6 4.53 1.74 6.5L3 29l6.67-1.75A12.95 12.95 0 0 0 16.04 29C23.2 29 29 23.18 29 16S23.2 3 16.04 3zm5.83 15.66c-.32-.16-1.89-.93-2.18-1.04-.3-.1-.5-.16-.72.16-.21.32-.82 1.04-1 1.25-.19.21-.37.24-.69.08-.32-.16-1.35-.5-2.57-1.59-.95-.85-1.59-1.9-1.77-2.21-.19-.32-.02-.5.14-.65.14-.14.32-.37.48-.56.16-.18.21-.32.32-.53.1-.21.05-.4-.03-.56-.08-.16-.72-1.73-.98-2.37-.26-.62-.52-.54-.72-.55h-.61c-.21 0-.56.08-.85.4-.29.32-1.12 1.09-1.12 2.66s1.15 3.09 1.31 3.3c.16.21 2.26 3.45 5.47 4.84.76.33 1.36.53 1.83.68.77.24 1.47.21 2.02.13.62-.09 1.89-.77 2.16-1.52.27-.74.27-1.38.19-1.52-.08-.13-.29-.21-.61-.37z"/></svg>
+  <span class="wa-float-label">Dúvidas?</span>
+</a>
+
+<script src="js/script.js"></script>
+</body>
+</html>
