@@ -319,3 +319,9 @@ h1, h2, h3{
   html{ scroll-behavior: auto; }
   *{ animation: none !important; transition: none !important; }
 }
+
+/* ---------- Presidentes de mesa ---------- */
+.talk-chair{ margin-top: 8px !important; padding-top: 8px; border-top: 1px dashed var(--line); }
+.talk-chair span{ color: var(--green) !important; }
+.subsection-title{ font-size: 1.8rem; color: var(--green); margin: 48px 0 18px; }
+.speaker-card-chair .speaker-initials{ color: var(--white); border-color: var(--ink-mute); background: rgba(255,255,255,.06); }
