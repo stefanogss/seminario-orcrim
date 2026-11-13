@@ -130,8 +130,8 @@
       'DTEND:20261204T203000Z',
       'SUMMARY:II Seminário de Enfrentamento às Organizações Criminosas',
       'LOCATION:Auditório - Edifício Sede do MPSC\\, Rua Bocaiúva\\, 1792\\, Centro\\, Florianópolis/SC',
-      'DESCRIPTION:Integração e ação contra o crime organizado.\\nInscrições: https://ead.mpsc.mp.br/course/view.php?id=1338',
-      'URL:https://ead.mpsc.mp.br/course/view.php?id=1338',
+      'DESCRIPTION:Integração e ação contra o crime organizado.\\nInscrições: https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=VIlUl1z9EUSwfE3ERXWcmonFNWncPJJNrz2nE5bO99xUM09IWEE4SVYzSzY1NDdDNVhDMzJTVkpLRC4u',
+      'URL:https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=VIlUl1z9EUSwfE3ERXWcmonFNWncPJJNrz2nE5bO99xUM09IWEE4SVYzSzY1NDdDNVhDMzJTVkpLRC4u',
       'BEGIN:VALARM', 'TRIGGER:-P1D', 'ACTION:DISPLAY', 'DESCRIPTION:Amanhã: II Seminário de Enfrentamento às Organizações Criminosas', 'END:VALARM',
       'END:VEVENT', 'END:VCALENDAR'
     ].join('\r\n');

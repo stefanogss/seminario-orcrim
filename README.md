@@ -4,7 +4,7 @@ Site de divulgação do **II Seminário de Enfrentamento às Organizações Crim
 
 - **Data:** 4 de dezembro de 2026, das 8h às 17h20
 - **Local:** Auditório – Edifício Sede do MPSC — Rua Bocaiúva, n. 1792, Centro, Florianópolis/SC
-- **Inscrições:** https://ead.mpsc.mp.br/course/view.php?id=1338
+- **Inscrições:** https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=VIlUl1z9EUSwfE3ERXWcmonFNWncPJJNrz2nE5bO99xUM09IWEE4SVYzSzY1NDdDNVhDMzJTVkpLRC4u
 - **Dúvidas (WhatsApp – Gerência de Capacitação):** +55 48 3229-9394
 
 Site estático (HTML/CSS/JS puro, sem build), pronto para o GitHub Pages.
